@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang ="en">
+    
+<head>
+    <meta charset ="UTF-8">
+    <meta name ="viewport" content="width=device-width, intial-scale=1.0">
+    <meta http-equiv= "X-UA-Compatible" content ="ie=edge">
+    <title>Challenge-4 JavaSrcipt Quiz</title>
+    <link rel ="stylesheet" href="assets/css/style.css">
+    <script defer src ="./assets/js/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>JavaScript Quiz Challenge</h1>
+    </header>
+    <!--start quiz-->
+    <section>
+        <div id="quiz-form" class="quiz-form">
+            <div class= "intro">
+                <p>Welcome to The JavaScript Quiz</p>
+                <span>See if you truly know your JavaScript</span>
+                <span>This quiz is also timed</span>
+            </div>
+            <div class="container">
+                <div id ="question-container" class="hide">
+                    <div id="question">Question</div>
+                    <div id ="answer-buttons" class ="btn-grid">
+                        <button class ="answ"> A</button>
+                        <button class ="answ"> B</button>
+                        <button class ="answ"> C</button>
+                        <button class ="answ"> D</button>
+                    </div>
+                </div>
+            </div>
+            <div class ="btn" id ="btn">
+                <button id ="strt-btn" class= "strt-btn btn">Start</button>
+                <button class ="save-btn btn hide">Save your score</button>
+                <button id="next-btn" class= "next-btn btn hide">Next</button>
+                <button id="submit-btn" class = "submit-btn btn hide">Submit</button>
+            </div>
+            <div class ="high-score">
+                <h2>High Scores</h2>
+                <div class="player">
+                    <!--player name-->
+                </div>
+                <div class="all-scores">
+                <!--user score from js-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p id ="countdown-timer" class ="hide">4:00</p>
+    </footer>
+    </section>
+    <!--score results-->
+
+</body>
+
+</html>
